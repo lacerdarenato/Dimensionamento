@@ -15,6 +15,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATE_DIR = Path(BASE_DIR, 'templates')
 STATIC_DIR = Path(BASE_DIR, 'static')
+print("caminho estatico", STATIC_DIR)
 
 
 # Quick-start development settings - unsuitable for production
@@ -120,7 +121,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIR = [
+STATICFILES_DIRS = [
     STATIC_DIR,
 ]
 
