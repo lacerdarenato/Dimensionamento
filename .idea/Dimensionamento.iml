@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/DimensionamentoWeb/DimensionamentoWeb" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DimensionamentoWeb/principal" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DimensionamentoWeb/static" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DimensionamentoWeb/pool" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/VirtualEnv" />
     </content>
     <orderEntry type="inheritedJdk" />

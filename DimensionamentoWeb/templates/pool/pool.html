@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Dimensionamento Web</title>
+    <link rel="stylesheet" type="text/css" href=" {% static 'bootstrap/css/bootstrap.css' %} "/>
+</head>
+<body>
+    {% include '../menu.html' %}
+</body>
+<main>
+    <div>
+        <form onsubmit="/piscina" id="form-pool" method="post">
+            <div>
+                {{ form }}
+                {% csrf_token %}
+            </div>
+            <input type="submit" id="submit-button" value="Enviar">
+        </form>
+    </div>
+</main>
+</html>
